@@ -7,7 +7,7 @@ import os
 from _get_top50_YouTube import getTop50ID  # user-defined
 
 ### Step 0：Get "YOUTUBE_API_KEY" and "Channel ID"
-YOUTUBE_API_KEY = "AIzaSyBnL0UuXW95x87qL43PEaBh779G7UWODEk"
+YOUTUBE_API_KEY = "YOUTUBE_API_KEY"
 # Get the Channel ID for YouTube Crawler
 ## Get the Channel ID: https://commentpicker.com/youtube-channel-id.php
 list_youtube_channel_id = ["UCMUnInmOkrWN4gof9KlhNmQ", "UCdRKafyb--geO9ySg6CbhYA", 'UCfX769yHKr7S8gz7UigOsbg', 'UC6IMF6xi_MZ3jA1wRlPQDLA']
