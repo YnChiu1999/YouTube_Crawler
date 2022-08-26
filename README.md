@@ -31,4 +31,4 @@ $ python Youtube_Crawler.py
 [YT_output.csv](https://github.com/YnChiu1999/YouTube_Crawler/files/9433603/YT_output.csv)
 
 封面縮圖：打開 `download_image` 資料夾  
-![image](https://user-images.githubusercontent.com/111637364/186917014-cb1378c2-b95a-4ec1-9b46-ddb79323f11a.png)
+![image](https://user-images.githubusercontent.com/111637364/186917528-31637fe5-50bb-405b-8f39-9f3f287d7886.png)
