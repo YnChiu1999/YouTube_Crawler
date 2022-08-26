@@ -7,12 +7,12 @@ import os
 from _get_top50_YouTube import getTop50ID  # user-defined
 
 ### Step 0：Get "YOUTUBE_API_KEY" and "Channel ID"
-YOUTUBE_API_KEY = "YOUTUBE_API_KEY"
+YOUTUBE_API_KEY = "AIzaSyBnL0UuXW95x87qL43PEaBh779G7UWODEk"
 # Get the Channel ID for YouTube Crawler
-## Get the Channel ID: https://commentpicker.com/youtube-channel-id.php
+## 方法一：透過 https://commentpicker.com/youtube-channel-id.php 網站取得該YouTube頻道ID
 list_youtube_channel_id = ["UCMUnInmOkrWN4gof9KlhNmQ", "UCdRKafyb--geO9ySg6CbhYA", 'UCfX769yHKr7S8gz7UigOsbg', 'UC6IMF6xi_MZ3jA1wRlPQDLA']
-# Get the Channel ID by "_get_top50_YouTube.getTop50ID"
-# list_youtube_channel_id = topForTW(YOUTUBE_API_KEY)
+## 方法二：透過 _get_top50_YouTube.py 檔案取得該台灣地區前50名YouTube頻道ID
+# list_youtube_channel_id = getTop50ID(YOUTUBE_API_KEY)
 
 # Make the folder for saving downloaded image
 os.mkdir(f"./download_image/")
@@ -63,7 +63,7 @@ def main():
     ## 3.寫入csv檔、
     labels = ['id', 'channelTitle', 'subscriberCount', 'publishedAt', 'title', 'likeCount', 'commentCount', 'viewCount', 'video_url']
     try:
-        with open('YT_output_mix.csv', 'a+', encoding = 'utf-8-sig', newline='') as f:
+        with open('YT_output.csv', 'a+', encoding = 'utf-8-sig', newline='') as f:
             writer = csv.DictWriter(f, fieldnames=labels)
             writer.writeheader()
             for elem in all_video_info:
