@@ -30,5 +30,5 @@ $ python Youtube_Crawler.py
 影片資訊：打開 `YT_output.csv` 檔案
 [YT_output.csv](https://github.com/YnChiu1999/YouTube_Crawler/files/9433603/YT_output.csv)
 
-封面縮圖：打開 `download_image` 資料夾  
+封面縮圖：打開 `download_image` 資料夾確認  
 ![image](https://user-images.githubusercontent.com/111637364/186917528-31637fe5-50bb-405b-8f39-9f3f287d7886.png)
