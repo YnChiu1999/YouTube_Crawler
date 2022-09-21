@@ -10,7 +10,7 @@ YOUTUBE_API_KEY = "AIzaxxxxxxxxxxxxxxxxxxxxx"
 ```
 
 ### Step 2：指定要爬取的YouTube頻道影片
-方法一：透過 https://commentpicker.com/youtube-channel-id.php 網站取得該YouTube頻道ID
+方法一：透過 https://commentpicker.com/youtube-channel-id.php 網站取得該YouTube頻道ID。
 ```
 list_youtube_channel_id = ["UCMUnInmOkrWN4gof9KlhNmQ", "UCdRKafyb--geO9ySg6CbhYA", 'UCfX769yHKr7S8gz7UigOsbg', 'UC6IMF6xi_MZ3jA1wRlPQDLA']
 ```
