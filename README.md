@@ -1,5 +1,5 @@
 # YouTube_Crawler (YouTube爬蟲)
-YouTube_Crawler (YouTube爬蟲)使用官方YouTube Data API抓取資料，使用前須先至 https://developers.google.com/youtube/v3 網站申請`YOUTUBE_API_KEY`，取得`YOUTUBE_API_KEY`之後即可透過以下代碼爬取台灣地區總觀看數前50名YouTube頻道之影片資訊及影片封面縮圖！！！
+YouTube_Crawler (YouTube爬蟲)使用官方YouTube Data API抓取資料，使用前須先至 https://developers.google.com/youtube/v3 網站申請`YOUTUBE_API_KEY`，取得`YOUTUBE_API_KEY`之後即可透過以下代碼爬取台灣地區總觀看數前50名YouTube頻道之影片資訊及影片封面縮圖！！！！
 
 
 ## 使用方式
